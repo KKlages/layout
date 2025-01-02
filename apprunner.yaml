@@ -4,7 +4,7 @@ build:
   commands:
     # Install dependencies
     pre-build:
-      - npm install
+      - npm install --verbose
 run:
   # Run the server on port 3000
   command: node server.js
